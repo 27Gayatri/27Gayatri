@@ -48,14 +48,9 @@ class Result extends Test implements Sports //interface is implement
 class Data{
 	
 public static void main(String[] args) {
-		// TODO Auto-generated method st
-		
-Result R1= new Result();
-     R1.getno(22);
-     R1.getmark(30.4f,33);
-     R1.display();
-	}}
-
-	}
-
-}
+		// TODO Auto-generated method	
+Result t2= new Result();
+     t2.getno(22);
+     t2.getmark(30.4f,33);
+     t2.display();
+}}
