@@ -1,14 +1,26 @@
-package lang;
-
-public class prorgram1 {
-
-	public prorgram1() {
-		// TODO Auto-generated constructor stub
+package lang 
+interface Zomatocompany
+{
+	abstract void menu();
+	abstract void orderonline();
+	abstract void delivery();
+}
+class Mauj implements Zomatocompany
+{
+	public void menu()
+	{
+		System.out.println("north indian");
+		System.out.println("southindian");
+		System.out.println("chinese");
 	}
-
-	public static void main(String[] args) {
+	public void orderonline()
+	{
+		System.out.println("recieve by zomato");
+		System.out.println("issue the order by mauj chef");
+		System.out.println("mauj chef will prepare acc to their recepie");
+	}
+	public void delivery() {
 		// TODO Auto-generated method stub
-
+		
 	}
-
 }
