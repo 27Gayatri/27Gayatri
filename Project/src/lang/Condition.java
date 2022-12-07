@@ -14,5 +14,21 @@ else
 	System.out.println("value x is ");
 
 }
+
+int z=10;
+if(z==1)
+{
+	System.out.println("the value of z is 1");
+
+}
+else if(x==2)
+{	
+	System.out.println("the value of z is 2");
+}
+else if (z==10)
+{
+	System.out.println("the value of z is upto 10");
+	
+}
 }
 }

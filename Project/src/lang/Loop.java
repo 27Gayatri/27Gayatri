@@ -1,11 +1,12 @@
 package lang;
 	public class Loop
-{{
-		for (i=1;i<=10;i++)
+{
+		public static void main(String args[])
 		{
-			int i;
-			if (i==5);
-			break;
-			System.out.println(i+" ");
-}	
-}}
+		for (int i=1;i<=500;i++)
+		{
+			System.out.print("valu of i is ");
+			System.out.println(i);
+}
+			}
+}
