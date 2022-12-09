@@ -1,6 +1,10 @@
 package lang;
 public class Student {
-
+public interface Sports
+{
+ float w=6.0f;
+ void puywt();
+}
 	int rn;
 	void getno(int n)
 	{
@@ -24,12 +28,8 @@ public class Student {
 	   System.out.println("M1 is:"+part1);
 	   System.out.println("m2 is :"+part2);
    }
-   interface sport   //interface is define 
-   {
-	   float w=6.0f;
-	   void putWt();  //abstract method 
-   }
-class Result extends Test implements Sports //interface is implement 
+	 }
+	 class Result extends Test implements Sports //interface is implement 
 {
 	float total ;
 	public void putwt()
@@ -44,13 +44,17 @@ class Result extends Test implements Sports //interface is implement
 		putwt();
 		System.out.println("Total SCore:"+total);
 }
+	public void puywt() {
+		// TODO Auto-generated method stub
+		
+	}
 }
-class Data{
+    class Data{
 	
-public static void main(String[] args) {
+    public void main(String args[]) {
 		// TODO Auto-generated method	
 Result t2= new Result();
      t2.getno(22);
      t2.getmark(30.4f,33);
      t2.display();
-}}
+}}}
